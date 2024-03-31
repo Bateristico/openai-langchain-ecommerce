@@ -1,13 +1,3 @@
-# Append the description of the second image to the existing readme.md content
-
-# Read the existing content first
-with open(readme_path, 'r') as file:
-    readme_content = file.read()
-
-# Append the new content based on the second image
-readme_content += """
-## Additional Flow
-
 ### Process Overview
 1. The **User** submits a question: "How many open orders do we have?"
 2. **Our App** interprets the question and merges it with instructions on how to use a tool.
